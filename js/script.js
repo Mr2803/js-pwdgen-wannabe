@@ -9,3 +9,8 @@ document.getElementById('presentazione').innerHTML  = saluto + ",questa è la tu
 document.getElementById('password').innerHTML =  outputfinpassw
 
 document.getElementById('use-me').innerHTML= "Usala per proteggere i tuoi dati bancari"
+
+function devil(){
+  document.getElementById("img-devil").style.visibility = "visible";
+
+}

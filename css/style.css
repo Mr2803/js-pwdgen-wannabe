@@ -9,7 +9,6 @@ body{
   align-items: center;
 }
 
-
 .password-generator{
   width:70%;
   color: #2196f3;
@@ -20,6 +19,12 @@ body{
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+
+}
+
+.devilitem{
+  position:relative;
+  display:inline-block;
 }
 
 #password{
@@ -29,13 +34,20 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Poppins", sans-serif;
+}
 
+#img-devil{
+  visibility: hidden;
+  width:10%;
+  position:absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(5%,10%);
 }
 
 p{
   font-size: 14px;
   color:white;
-  text
 }
 
 

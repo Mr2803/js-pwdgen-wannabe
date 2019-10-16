@@ -5,12 +5,15 @@ body{
   min-height: 100vh;
   display:flex;
   justify-content: center;
-  background:#031321;
+  background:url(../img/safebox.svg) #031321;
+  background-repeat: no-repeat;
+  background-size: 40% 90%;
+  background-position: right ;
   align-items: center;
 }
 
 .password-generator{
-  width:70%;
+  width:50%;
   color: #2196f3;
   font-size: 25px;
   transition: background 0.5s;
@@ -30,7 +33,7 @@ body{
 #password{
   opacity: .5;
   text-transform: capitalize;
-  background: linear-gradient(to right, #2b3437 0%, #d75908 100%);
+  background: linear-gradient(to right, #2b3437 0%, #ff6400 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Poppins", sans-serif;

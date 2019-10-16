@@ -11,26 +11,21 @@ body{
 
 
 .password-generator{
+  width:70%;
   color: #2196f3;
   font-size: 25px;
   transition: background 0.5s;
-  border: 1px solid #061d30;
+  border: 2px solid #061d30;
   padding:50px;
   font-weight: bold;
   text-align: center;
-}
-
-span{
   text-transform: uppercase;
-}
-
-i{
-  display:none;
 }
 
 p{
   font-size: 14px;
   color:white;
+  text
 }
 
 

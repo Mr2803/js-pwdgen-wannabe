@@ -36,11 +36,14 @@ body{
   font-weight: bold;
 }
 
+i{
+  vertical-align: middle;
+}
+
 p{
   font-size: 14px;
   color:white;
 }
-
 
 .password-generator:hover{
   color:#061d30;

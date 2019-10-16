@@ -1,17 +1,29 @@
+// dichiarazione variabili
+var nome,cognome,colore,saluto,outputFinPassw;
+
 // variabile per il nome
-var nome = prompt("Qual è il tuo nome?");
+nome = prompt("Qual è il tuo nome?");
+ //console.log(nome); debug
 
 // variabile per il cognome
-var cognome = prompt("Qual è il tuo cognome?");
+cognome = prompt("Qual è il tuo cognome?");
+ //console.log(cognome); debug
 
 // variabile colore preferito
-var colore = prompt("Qual è il tuo colore preferito?");
+colore = prompt("Qual è il tuo colore preferito?");
+ //console.log(colore); debug
+
+//numero casuale
+nRand = Math.floor(Math.random() * 100);
+ //console.log(nRand); debug
 
 // variabile per saluto prima della password
-var saluto = "Ciao " + nome;
+saluto = "Ciao " + nome;
+ //console.log("Ciao " + nome); debug
 
 // variabile per l'output finale password
-var outputFinPassw = nome + cognome + colore + 19;
+outputFinPassw = nome + cognome + colore + nRand;
+ //console.log(outputFinPassw); debug
 
 // output per saluto prima della password
 document.getElementById('presentazione').innerHTML  = saluto + ",questa è la tua password:";
@@ -29,14 +41,3 @@ function showpass(){
 function hidepass(){
   document.getElementById("password").type = "password";
 }
-
-
-
-// funzioni per far comparire/scomparire devil
-// function devil(){
-//   document.getElementById("img-devil").style.visibility = "visible";
-// }
-//
-// function devil_hidden(){
-//   document.getElementById("img-devil").style.visibility = "hidden";
-// }

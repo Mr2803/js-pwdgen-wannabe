@@ -19,7 +19,7 @@ nRand = Math.floor(Math.random() * 100);
 
 // variabile per saluto prima della password
 saluto = "Ciao " + nome;
- //console.log("Ciao " + nome); debug
+ //console.log(saluto); debug
 
 // variabile per l'output finale password
 outputFinPassw = nome + cognome + colore + nRand;

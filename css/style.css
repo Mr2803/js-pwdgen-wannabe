@@ -23,9 +23,13 @@ body{
 }
 
 #password{
+  opacity: .5;
   text-transform: capitalize;
-  color:white;
-  opacity: .5
+  background: linear-gradient(to right, #2b3437 0%, #d75908 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+
 }
 
 p{
@@ -41,4 +45,8 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 0 10px #2196f3,  0 0 40px #2196f3, 0 0 10px  #2196f3;
+}
+
+.password-generator:hover #password{
+  color:white;
 }

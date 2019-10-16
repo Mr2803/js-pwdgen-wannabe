@@ -2,9 +2,6 @@ body{
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
-
-.password-generator{
   min-height: 100vh;
   display:flex;
   justify-content: center;
@@ -12,17 +9,34 @@ body{
   align-items: center;
 }
 
-#password{
+
+.password-generator{
   color: #2196f3;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   transition: 0.5s;
   border: 1px solid #255784;
-  padding:50px
+  padding:50px;
+  font-weight: bold;
+  text-align: center;
 }
 
-#password:hover{
+i{
+  display:none;
+}
+
+p{
+  font-size: 14px;
+  color:white;
+}
+
+
+.password-generator:hover{
   color:#255784;
   background: #2196f3;
   box-shadow: 0 0 10px #2196f3,  0 0 40px #2196f3, 0 0 10px  #2196f3;
+}
+
+.password-generator:hover i {
+  display: block;
 }

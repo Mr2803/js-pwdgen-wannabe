@@ -13,7 +13,7 @@ cognome = prompt("Qual è il tuo cognome?");
 colore = prompt("Qual è il tuo colore preferito?");
  //console.log(colore); debug
 
-//numero casuale
+//generatore numero casuale
 nRand = Math.floor(Math.random() * 100);
  //console.log(nRand); debug
 

@@ -4,12 +4,22 @@ body{
   box-sizing: border-box;
   min-height: 100vh;
   display:flex;
+  flex-direction: column;
   justify-content: center;
   background:url(../img/safebox.svg) #031321;
   background-repeat: no-repeat;
   background-size: 42.5% 90%;
   background-position: right ;
   align-items: center;
+}
+
+h1{
+  text-transform: uppercase;
+	background: linear-gradient(to right, #6CC0F4 0%, #1B80BF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .password-generator{
@@ -21,13 +31,8 @@ body{
   padding:50px;
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
 }
 
-.devilitem{
-  position:relative;
-  display:inline-block;
-}
 
 #password{
   text-transform: capitalize;
@@ -43,6 +48,7 @@ i{
 p{
   font-size: 14px;
   color:white;
+  text-transform: uppercase;
 }
 
 .password-generator:hover{

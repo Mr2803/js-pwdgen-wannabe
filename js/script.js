@@ -17,16 +17,21 @@ var outputFinPassw = nome + cognome + colore + 19;
 document.getElementById('presentazione').innerHTML  = saluto + ",questa è la tua password:";
 
 // output finale della password
-document.getElementById('password').innerHTML =  outputFinPassw;
+document.getElementById('password').value =  outputFinPassw;
 
 // output "come usare la password?"
 document.getElementById('use-me').innerHTML= "Usala per proteggere i tuoi dati bancari";
 
 // funzioni per far comparire/scomparire devil
-function devil(){
-  document.getElementById("img-devil").style.visibility = "visible";
-}
+// function devil(){
+//   document.getElementById("img-devil").style.visibility = "visible";
+// }
+//
+// function devil_hidden(){
+//   document.getElementById("img-devil").style.visibility = "hidden";
+// }
 
-function devil_hidden(){
-  document.getElementById("img-devil").style.visibility = "hidden";
+// funzione per mostrare password
+function showpass(){
+  document.getElementById("password").type = "text";
 }

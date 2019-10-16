@@ -33,19 +33,8 @@ body{
 #password{
   opacity: .5;
   text-transform: capitalize;
-  background: linear-gradient(to right, #2b3437 0%, #ff6400 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Poppins", sans-serif;
-}
-
-#img-devil{
-  visibility: hidden;
-  width:10%;
-  position:absolute;
-  top: 0;
-  left: 100%;
-  transform: translate(5%,10%);
+  background: #2196f3;
+  vertical-align: middle;
 }
 
 p{

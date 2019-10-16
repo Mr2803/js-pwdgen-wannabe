@@ -22,6 +22,12 @@ body{
   text-transform: uppercase;
 }
 
+#password{
+  text-transform: capitalize;
+  color:white;
+  opacity: .5
+}
+
 p{
   font-size: 14px;
   color:white;

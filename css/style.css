@@ -22,7 +22,6 @@ body{
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .devilitem{
@@ -31,10 +30,10 @@ body{
 }
 
 #password{
-  opacity: .5;
   text-transform: capitalize;
   background: #2196f3;
   vertical-align: middle;
+  font-weight: bold;
 }
 
 p{

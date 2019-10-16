@@ -10,10 +10,12 @@
   <body>
     <div class="password-generator" >
       <span id="presentazione"></span>
-      <div class="devilitem">
-      <span><input type="password" id="password" onclick="showpass()"></span>
+      <div class="show-hide-psw">
+      <span><input type="password" id="password" ></span>
+      <i class="fas fa-eye" onclick="showpass()"></i>
+      <i class="fas fa-eye-slash" onclick="hidepass()" ></i>
       </div>
-      <p id="use-me"  onclick="devil_hidden()"></p>
+      <p id="use-me"></p>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>

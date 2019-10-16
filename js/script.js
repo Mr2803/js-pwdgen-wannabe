@@ -22,6 +22,16 @@ document.getElementById('password').value =  outputFinPassw;
 // output "come usare la password?"
 document.getElementById('use-me').innerHTML= "Usala per proteggere i tuoi dati bancari";
 
+// funzione per mostrare/nascondere password
+function showpass(){
+  document.getElementById("password").type = "text";
+}
+function hidepass(){
+  document.getElementById("password").type = "password";
+}
+
+
+
 // funzioni per far comparire/scomparire devil
 // function devil(){
 //   document.getElementById("img-devil").style.visibility = "visible";
@@ -30,8 +40,3 @@ document.getElementById('use-me').innerHTML= "Usala per proteggere i tuoi dati b
 // function devil_hidden(){
 //   document.getElementById("img-devil").style.visibility = "hidden";
 // }
-
-// funzione per mostrare password
-function showpass(){
-  document.getElementById("password").type = "text";
-}

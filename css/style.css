@@ -15,7 +15,7 @@ body{
 
 h1{
   text-transform: uppercase;
-	background: linear-gradient(to right, #6CC0F4 0%, #1B80BF 100%);
+	background: linear-gradient(to right, #ecb40c 0%, #1B80BF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   font-weight: bold;

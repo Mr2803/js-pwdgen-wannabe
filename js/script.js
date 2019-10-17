@@ -1,5 +1,5 @@
 // dichiarazione variabili
-var nome,cognome,colore,saluto,outputFinPassw;
+var nome,cognome,colore,saluto,numRand,outputFinPassw;
 
 // variabile per il nome
 nome = prompt("Qual è il tuo nome?");
@@ -14,15 +14,15 @@ colore = prompt("Qual è il tuo colore preferito?");
  //console.log(colore); debug
 
 //generatore numero casuale
-nRand = Math.floor(Math.random() * 100);
- //console.log(nRand); debug
+numRand = Math.floor(Math.random() * 100);
+ //console.log(numRand); debug
 
 // variabile per saluto prima della password
 saluto = "Ciao " + nome;
  //console.log(saluto); debug
 
 // variabile per l'output finale password
-outputFinPassw = nome + cognome + colore + nRand;
+outputFinPassw = nome + cognome + colore + numRand;
  //console.log(outputFinPassw); debug
 
 // output per saluto prima della password
